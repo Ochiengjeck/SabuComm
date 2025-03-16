@@ -1,6 +1,23 @@
 # SabuComm
 How to run this Project
 
+Create these files "user\include\config.php" and "admin\include\config.php" 
+copy and paste this code in the files
+
+```php
+
+<?php
+define('DB_SERVER', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', 'YOUR_MYSQL');
+define('DB_NAME', 'cms');
+$con = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+// Check connection
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+```
 1. clone this project into xampp/htdocs
 
 2. Open PHPMyAdmin (http://localhost/phpmyadmin)
@@ -19,7 +36,20 @@ How to run this Project
 Credential for admin panel : 
 Username: 'admin', Password: Your_New_Password
 
-Credential for user panel : 
-use registered user's credentials
+
 NOTE:
-Make sure to edit user\include\config.php and admin\include\config.php to use you database password
+Make sure to create these files user\include\config.php and admin\include\config.php to use you database password
+
+copy and paste this code in the files
+
+<?php
+define('DB_SERVER', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', 'Maraclara2@@2');
+define('DB_NAME', 'cms');
+$con = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+// Check connection
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
