@@ -1,25 +1,23 @@
 # SabuComm
-.\readme.txt
-How to run this) Project
+How to run this Project
 
-1. Download the zip file
+1. clone this project into xampp/htdocs
 
-2. Extract the file and copy cms folder
+2. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+3. Create a database with name cms
 
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+4. Import cms.sql file(given inside SQL File/ )
 
-5. Create a database with name cms
+5. Use mobile= "8956232356" and email ="admin@gmail.com" and reset passord to preffered password
 
-6. Import cms.sql file(given inside the zip package in SQL file folder)
+6. Create a user and use th ecredentials to login as a normal user
 
-7.Run the script http://localhost/cms (frontend)
+5. Visit the link http://localhost/sabucomm (browser)
 
-8. For admin panel http://localhost/cms/admin (admin panel)
 
 Credential for admin panel : 
-Username: admin, Password: Test@123
+Username: ' ', Password: Your_New_Password
 
 Credential for user panel : 
-Username: grmat@test.com ,Password: Test@123
+use registered user's credentials
