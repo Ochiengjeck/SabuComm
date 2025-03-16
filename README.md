@@ -1,4 +1,6 @@
 # SabuComm
+
+![](https://github.com/Ochiengjeck/SabuComm/blob/main/screenshots/SabuComm.jpeg)
 How to run this Project
 
 Create these files "user\include\config.php" and "admin\include\config.php" 
