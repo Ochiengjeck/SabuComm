@@ -17,7 +17,9 @@ How to run this Project
 
 
 Credential for admin panel : 
-Username: ' ', Password: Your_New_Password
+Username: 'admin', Password: Your_New_Password
 
 Credential for user panel : 
 use registered user's credentials
+NOTE:
+Make sure to edit user\include\config.php and admin\include\config.php to use you database password
